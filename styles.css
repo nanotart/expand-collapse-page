@@ -2,6 +2,7 @@ body {
   background-color: #DCDCDC;
   padding: 1rem;
   margin: 0;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .card {
@@ -24,12 +25,14 @@ body {
   margin-bottom: -1px;
 }
 
+/* default to hidden */
 .card-body {
   padding: 0 .5rem;
   height: 0;
   overflow: hidden;
 }
 
+/* added show to class */
 .card-body.show {
   height: auto;
   padding: .5rem;
